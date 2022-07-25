@@ -2,8 +2,6 @@ from Bio import AlignIO
 import argparse
 import re
 
-
-
 """
 # This script trims a multifasta alignment to the boundaries of the first sequence in the fasta file
 # input

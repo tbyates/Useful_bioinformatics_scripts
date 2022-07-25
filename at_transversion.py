@@ -2,7 +2,6 @@ from Bio import SeqIO
 import pandas as pd
 import argparse
 
-
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--input", action="store", help="input alignment file", required=True)
 parser.add_argument("-o", "--output", action="store", help="output tab-delimited AT transversion file", required=True)
